@@ -1,0 +1,19 @@
+/* Add some spacing around the main container */
+.container {
+    margin-top: 50px;
+}
+
+/* Center the page title with a little more space */
+h1 {
+    margin-bottom: 30px;
+}
+
+/* Style the table to look clean and readable */
+.table {
+    margin-top: 20px;
+}
+
+/* Center the "No classes today" message */
+.text-center {
+    text-align: center;
+}
