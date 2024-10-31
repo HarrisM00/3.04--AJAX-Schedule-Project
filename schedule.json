@@ -1,32 +1,32 @@
 {
-    "schedule": [
+  "schedule": [
       {
-        "class": "Architecture",
-        "teacher": "Mr. Kilgore",
-        "room": "203",
-        "period": 1,
-        "days": ["A", "C", "E"]
+          "class": "Architecture",
+          "teacher": "Mr. Kilgore",
+          "room": "203",
+          "period": 1,
+          "days": ["A", "C", "E"]
       },
       {
-        "class": "Advanced Algebra",
-        "teacher": "Ms. Lee",
-        "room": "105",
-        "period": 2,
-        "days": ["B", "D", "F"]
+          "class": "Advanced Algebra",
+          "teacher": "Ms. Lee",
+          "room": "105",
+          "period": 2,
+          "days": ["B", "D", "F"]
       },
       {
-        "class": "English",
-        "teacher": "Ms. Lee",
-        "room": "105",
-        "period": 2,
-        "days": ["B", "D", "F"]
-    },
-    {
-      "class": "Economics",
-      "teacher": "Ms. Lee",
-      "room": "105",
-      "period": 2,
-      "days": ["B", "D", "F"]
-  }
-    ]
+          "class": "English",
+          "teacher": "Ms. Smith",
+          "room": "106",
+          "period": 3,
+          "days": ["B", "D", "F"]
+      },
+      {
+          "class": "Economics",
+          "teacher": "Ms. Johnson",
+          "room": "107",
+          "period": 4,
+          "days": ["A", "C", "E"]
+      }
+  ]
 }
