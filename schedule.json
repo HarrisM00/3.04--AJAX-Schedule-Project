@@ -8,11 +8,25 @@
         "days": ["A", "C", "E"]
       },
       {
-        "class": "Math Analysis",
+        "class": "Advanced Algebra",
         "teacher": "Ms. Lee",
         "room": "105",
         "period": 2,
         "days": ["B", "D", "F"]
-      }
+      },
+      {
+        "class": "English",
+        "teacher": "Ms. Lee",
+        "room": "105",
+        "period": 2,
+        "days": ["B", "D", "F"]
+    },
+    {
+      "class": "Economics",
+      "teacher": "Ms. Lee",
+      "room": "105",
+      "period": 2,
+      "days": ["B", "D", "F"]
+  }
     ]
 }
