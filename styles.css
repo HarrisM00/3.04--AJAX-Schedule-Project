@@ -1,19 +1,93 @@
-/* Add some spacing around the main container */
 .container {
     margin-top: 50px;
 }
 
-/* Center the page title with a little more space */
+/* Center the page title  */
 h1 {
     margin-bottom: 30px;
 }
 
-/* Style the table to look clean and readable */
+/* Style the table */
 .table {
     margin-top: 20px;
 }
 
-/* Center the "No classes today" message */
-.text-center {
+/*aesthetics*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f7fa; 
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h3 {
+    color: #4a90e2; /* A soft blue color */
     text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+#dayInput {
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#submitDay {
+    background-color: #4a90e2;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+#submitDay:hover {
+    background-color: #357ABD;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4a90e2;
+    color: #fff;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    color: #666;
+}
+
+td:empty {
+    background-color: #eee;
+    color: #aaa;
 }

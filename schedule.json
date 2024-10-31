@@ -5,7 +5,7 @@
       "teacher": "Mr. Smith",
       "room": "101",
       "period": 1,
-      "days": ["A", "B", "F"]
+      "days": ["A", "B", "F", "G"]
     },
     {
       "class": "Advanced Algebra",
@@ -40,14 +40,14 @@
       "teacher": "Ms. Martinez",
       "room": "301",
       "period": 1,
-      "days": ["B", "C"]
+      "days": ["B", "C", "G"]
     },
     {
       "class": "English",
       "teacher": "Ms. Lee",
       "room": "105",
       "period": 2,
-      "days": ["B", "D"]
+      "days": ["B", "D", "G"]
     },
     {
       "class": "Economics",

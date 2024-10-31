@@ -2,27 +2,26 @@ $(document).ready(function () {
     $('#submitDay').on('click', function () {
         let dayInput = $('#dayInput').val().toUpperCase();
 
-        // Validate day input
+        // day input
         if (!['A', 'B', 'C', 'D', 'E', 'F', 'G'].includes(dayInput)) {
             alert('Please enter a valid day (A-G).');
             return;
         }
 
-        $('#scheduleList').empty(); // Clear previous schedule
+        $('#scheduleList').empty(); 
 
-        // Fetch schedule data
+        //  schedule
         $.ajax({
-            url: 'https://api.npoint.io/1ffad91cf0ac80379f0c',
+            url: 'schedule.json',
             method: 'GET',
             dataType: 'json',
             success: function (data) {
-                // Filter classes for the selected day
+                //  classes for the selected day
                 let classesForDay = data.schedule.filter(item => item.days.includes(dayInput));
 
-                // Shuffle classes to ensure different selections
                 classesForDay.sort(() => Math.random() - 0.5);
 
-                // Initialize selected classes and ensure lunch is included
+                // MAke sure lunch is included
                 let selectedClasses = [];
                 let lunchClass = classesForDay.find(item => item.class === "Lunch");
 
@@ -38,15 +37,15 @@ $(document).ready(function () {
                     selectedClasses.push(lunchClass);
                 }
 
-                // Randomly shuffle the selected classes to mix lunch in
+                // Randomly shuffle 
                 selectedClasses.sort(() => Math.random() - 0.5);
 
-                // Ensure we always have 5 entries
+                // 5 entries
                 while (selectedClasses.length < 5) {
                     selectedClasses.push({ class: "", teacher: "", room: "" }); // Add empty class objects
                 }
 
-                // Display selected classes
+                // Show the classes
                 selectedClasses.forEach((item, index) => {
                     $('#scheduleList').append(`
                         <tr>
