@@ -12,7 +12,7 @@ $(document).ready(function () {
 
         //  schedule
         $.ajax({
-            url: 'schedule.json',
+            url: 'https://api.npoint.io/1ffad91cf0ac80379f0c',
             method: 'GET',
             dataType: 'json',
             success: function (data) {

@@ -9,14 +9,14 @@
     },
     {
       "class": "Advanced Algebra",
-      "teacher": "Ms. Lee",
+      "teacher": "Mr. Kennedy",
       "room": "105",
       "period": 2,
       "days": ["A", "C", "E"]
     },
     {
       "class": "Web Design",
-      "teacher": "Ms. Johnson",
+      "teacher": "Mr. King",
       "room": "202",
       "period": 3,
       "days": ["A", "D", "F"]
@@ -30,21 +30,21 @@
     },
     {
       "class": "Architecture",
-      "teacher": "Mr. Kilgore",
+      "teacher": "Mr. Einstein",
       "room": "203",
       "period": 5,
       "days": ["A", "E", "F"]
     },
     {
       "class": "Art",
-      "teacher": "Ms. Martinez",
+      "teacher": "Mr. Blue",
       "room": "301",
       "period": 1,
       "days": ["B", "C", "G"]
     },
     {
       "class": "English",
-      "teacher": "Ms. Lee",
+      "teacher": "Mr. Gray",
       "room": "105",
       "period": 2,
       "days": ["B", "D", "G"]
