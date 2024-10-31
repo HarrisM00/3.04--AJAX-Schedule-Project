@@ -1,32 +1,249 @@
 {
   "schedule": [
-      {
-          "class": "Architecture",
-          "teacher": "Mr. Kilgore",
-          "room": "203",
-          "period": 1,
-          "days": ["A", "C", "E"]
-      },
-      {
-          "class": "Advanced Algebra",
-          "teacher": "Ms. Lee",
-          "room": "105",
-          "period": 2,
-          "days": ["B", "D", "F"]
-      },
-      {
-          "class": "English",
-          "teacher": "Ms. Smith",
-          "room": "106",
-          "period": 3,
-          "days": ["B", "D", "F"]
-      },
-      {
-          "class": "Economics",
-          "teacher": "Ms. Johnson",
-          "room": "107",
-          "period": 4,
-          "days": ["A", "C", "E"]
-      }
+    {
+      "class": "Health",
+      "teacher": "Mr. Smith",
+      "room": "101",
+      "period": 1,
+      "days": ["A"]
+    },
+    {
+      "class": "Advanced Algebra",
+      "teacher": "Ms. Lee",
+      "room": "105",
+      "period": 2,
+      "days": ["A"]
+    },
+    {
+      "class": "Web Design",
+      "teacher": "Ms. Johnson",
+      "room": "202",
+      "period": 3,
+      "days": ["A"]
+    },
+    {
+      "class": "Lunch",
+      "teacher": "",
+      "room": "",
+      "period": 4,
+      "days": ["A"]
+    },
+    {
+      "class": "Architecture",
+      "teacher": "Mr. Kilgore",
+      "room": "203",
+      "period": 5,
+      "days": ["A"]
+    },
+    {
+      "class": "Art",
+      "teacher": "Ms. Martinez",
+      "room": "301",
+      "period": 1,
+      "days": ["B"]
+    },
+    {
+      "class": "English",
+      "teacher": "Ms. Lee",
+      "room": "105",
+      "period": 2,
+      "days": ["B"]
+    },
+    {
+      "class": "Economics",
+      "teacher": "Mr. Brown",
+      "room": "204",
+      "period": 3,
+      "days": ["B"]
+    },
+    {
+      "class": "Lunch",
+      "teacher": "",
+      "room": "",
+      "period": 4,
+      "days": ["B"]
+    },
+    {
+      "class": "Health",
+      "teacher": "Mr. Smith",
+      "room": "101",
+      "period": 5,
+      "days": ["B"]
+    },
+    {
+      "class": "Advanced Algebra",
+      "teacher": "Ms. Lee",
+      "room": "105",
+      "period": 1,
+      "days": ["C"]
+    },
+    {
+      "class": "Web Design",
+      "teacher": "Ms. Johnson",
+      "room": "202",
+      "period": 2,
+      "days": ["C"]
+    },
+    {
+      "class": "Lunch",
+      "teacher": "",
+      "room": "",
+      "period": 3,
+      "days": ["C"]
+    },
+    {
+      "class": "Architecture",
+      "teacher": "Mr. Kilgore",
+      "room": "203",
+      "period": 4,
+      "days": ["C"]
+    },
+    {
+      "class": "Art",
+      "teacher": "Ms. Martinez",
+      "room": "301",
+      "period": 5,
+      "days": ["C"]
+    },
+    {
+      "class": "Economics",
+      "teacher": "Mr. Brown",
+      "room": "204",
+      "period": 1,
+      "days": ["D"]
+    },
+    {
+      "class": "Health",
+      "teacher": "Mr. Smith",
+      "room": "101",
+      "period": 2,
+      "days": ["D"]
+    },
+    {
+      "class": "Advanced Algebra",
+      "teacher": "Ms. Lee",
+      "room": "105",
+      "period": 3,
+      "days": ["D"]
+    },
+    {
+      "class": "Lunch",
+      "teacher": "",
+      "room": "",
+      "period": 4,
+      "days": ["D"]
+    },
+    {
+      "class": "Web Design",
+      "teacher": "Ms. Johnson",
+      "room": "202",
+      "period": 5,
+      "days": ["D"]
+    },
+    {
+      "class": "Art",
+      "teacher": "Ms. Martinez",
+      "room": "301",
+      "period": 1,
+      "days": ["E"]
+    },
+    {
+      "class": "Economics",
+      "teacher": "Mr. Brown",
+      "room": "204",
+      "period": 2,
+      "days": ["E"]
+    },
+    {
+      "class": "Health",
+      "teacher": "Mr. Smith",
+      "room": "101",
+      "period": 3,
+      "days": ["E"]
+    },
+    {
+      "class": "Lunch",
+      "teacher": "",
+      "room": "",
+      "period": 4,
+      "days": ["E"]
+    },
+    {
+      "class": "Advanced Algebra",
+      "teacher": "Ms. Lee",
+      "room": "105",
+      "period": 5,
+      "days": ["E"]
+    },
+    {
+      "class": "Architecture",
+      "teacher": "Mr. Kilgore",
+      "room": "203",
+      "period": 1,
+      "days": ["F"]
+    },
+    {
+      "class": "Web Design",
+      "teacher": "Ms. Johnson",
+      "room": "202",
+      "period": 2,
+      "days": ["F"]
+    },
+    {
+      "class": "Art",
+      "teacher": "Ms. Martinez",
+      "room": "301",
+      "period": 3,
+      "days": ["F"]
+    },
+    {
+      "class": "Lunch",
+      "teacher": "",
+      "room": "",
+      "period": 4,
+      "days": ["F"]
+    },
+    {
+      "class": "Economics",
+      "teacher": "Mr. Brown",
+      "room": "204",
+      "period": 5,
+      "days": ["F"]
+    },
+    {
+      "class": "English",
+      "teacher": "Ms. Lee",
+      "room": "105",
+      "period": 1,
+      "days": ["G"]
+    },
+    {
+      "class": "Health",
+      "teacher": "Mr. Smith",
+      "room": "101",
+      "period": 2,
+      "days": ["G"]
+    },
+    {
+      "class": "Advanced Algebra",
+      "teacher": "Ms. Lee",
+      "room": "105",
+      "period": 3,
+      "days": ["G"]
+    },
+    {
+      "class": "Lunch",
+      "teacher": "",
+      "room": "",
+      "period": 4,
+      "days": ["G"]
+    },
+    {
+      "class": "Web Design",
+      "teacher": "Ms. Johnson",
+      "room": "202",
+      "period": 5,
+      "days": ["G"]
+    }
   ]
 }
