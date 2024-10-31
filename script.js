@@ -51,7 +51,7 @@ $(document).ready(function () {
                     $('#scheduleList').append(`
                         <tr>
                             <td>${index + 1}</td>
-                            <td>${item.class || "N/A"}</td>
+                            <td>${item.class || "Senior Leave"}</td>
                             <td>${item.teacher || "N/A"}</td>
                             <td>${item.room || "N/A"}</td>
                         </tr>
